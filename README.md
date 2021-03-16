@@ -1,3 +1,11 @@
+#Fluent Bit Build From Source on Macos
+```
+export CPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk
+export OPENSSL_ROOT_DIR="/usr/local/opt/openssl@1.1"
+export MACOSX_DEPLOYMENT_TARGET=11.1
+~                                               
+```
 # Fluent Bit Plugin
 
 The following repository provides the structure and build-system helpers to develop C dynamic plugins for [Fluent Bit](https://fluentbit.io) like _inputs_, _filters_ and _outputs_.
